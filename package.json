@@ -6,7 +6,8 @@
     "dev": "vite",
     "build": "tsc && vite build && electron-builder",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "format": "prettier -w git *.ts .*.cjs .*.yml *.json *.json5 *.html src/**/*.tsx electron/**/*.ts src/**/*.ts src/**/*.css"
   },
   "dependencies": {
     "react": "^17.0.2",
@@ -23,6 +24,7 @@
     "eslint": "^8.42.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.1",
+    "prettier": "^2.8.8",
     "typescript": "5.1.3",
     "vite": "^4.3.9",
     "vite-plugin-electron": "^0.11.2",
