@@ -24,3 +24,16 @@ release
 *.njsproj
 *.sln
 *.sw?
+
+/node_modules
+/.pnp
+.pnp.js
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.eslintcache
+**/*.tsbuildinfo
