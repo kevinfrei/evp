@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App.tsx';
-import './index.css';
+import './assets/index.css';
+import App from './App';
 
 window.addEventListener('DOMContentLoaded', () => {
   const root = document.getElementById('root');
@@ -14,4 +14,3 @@ window.addEventListener('DOMContentLoaded', () => {
     );
   }
 });
-postMessage({ payload: 'removeLoading' }, '*');
